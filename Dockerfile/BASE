@@ -3,6 +3,8 @@
 
 FROM ubuntu:18.04
 
+USER root
+
 ENV SERVER_DIR=/data/server \
     STEAM=/steam \
     PLATFORM=windows \
